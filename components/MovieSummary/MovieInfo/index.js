@@ -1,5 +1,3 @@
-
-
 import InfoWrapper from 'parts/InfoWrapper';
 import Header from 'parts/Header';
 import BasicsSection from './BasicsSection';
@@ -40,7 +38,8 @@ const MovieInfo = ({
       <MovieAdSection
         websiteUrl={movie.homepage}
         imdbId={movie.imdb_id}
-        videos={movie.videos.results} />
+        videos={movie.videos.results}
+        movieId={movie.id} />
     </InfoWrapper>
     <style jsx>{`
       :global(.basic-section-bottom-margin) {
