@@ -10,7 +10,8 @@
 
 # next.js
 /.next/
-/out/
+# Keep hosting files and out directory for deployment
+# /out/
 
 # production
 /build
@@ -24,10 +25,16 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
+# Keep .env file for download links configuration
+# .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+# Deployment and editor 
 .vercel
 /.vscode
+
+# Hosting files temp directory (keep the actual out directory)
+/hosting-files-temp/

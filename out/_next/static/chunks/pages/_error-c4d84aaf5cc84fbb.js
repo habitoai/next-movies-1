@@ -1,0 +1,2 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[820],{2904:function(t,n,r){(window.__NEXT_P=window.__NEXT_P||[]).push(["/_error",function(){return r(6135)}])},6135:function(t,n,r){"use strict";r.r(n);var u=r(5893),s=r(5518),e=function(t){var n=t.statusCode;return(0,u.jsx)(s.Z,{statusCode:n})};e.getInitialProps=function(t){var n=t.res,r=t.err;return{statusCode:n?n.statusCode:r?r.statusCode:404}},n.default=e}},function(t){t.O(0,[261,518,774,888,179],(function(){return n=2904,t(t.s=n);var n}));var n=t.O();_N_E=n}]);
+//# sourceMappingURL=_error-c4d84aaf5cc84fbb.js.map
